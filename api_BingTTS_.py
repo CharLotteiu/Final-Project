@@ -86,7 +86,7 @@ class BingTTS:
         return (0)
     
     def Text2Speech(self, text, gender = 'Male', lang = 'en-US', role = 'Guy24KRUS'):
-        #对外开放的han
+        #对外开放的函数
         igender = gender
         ilang = lang
         irole = role
