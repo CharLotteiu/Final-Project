@@ -104,26 +104,14 @@ class BingTTS:
         return (filename)
 
 
-# In[4]:
-
 
 TTStool = BingTTS()
 
-
-# In[5]:
 
 
 TTStool.getToken()
 
 
-# In[6]:
-
 
 TTStool.Text2Speech('Today is a beautiful Friday. I am studying with Coco.','Male', 'en-US','Guy24KRUS')
-
-
-# In[7]:
-
-
-TTStool.Text2Speech('Coco and I had a quarrel yesterday, but we reconcile today.')
 
